@@ -1,0 +1,51 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    You are given a 5x5 matrix of integers as tuple of tuples. Use it as a mask for the square-arranged letters of the alphabet from "a" to "y" (row-major order). Return a string of characters (sorted, ignore case), picked from the square of letters according to the mask with the following rule:
+    <ul>
+        <li><code>0</code> in mask - do not take the respective character;</li>
+        <li><code>1</code> - take in lowercase;</li>
+        <li><code>2</code> - take in uppercase.</li>
+    </ul>
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}matrix-2-string.svg" alt="example" style="max-height: 200px"/>
+</p>
+
+<p style="text-align: justify;">
+    Here is a mission to make a reversed conversion - <a target="_blank" href="">String-2-Matrix</a>.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Input:</strong> Tuple of five tuples of five integers (<span translate="no">{% if is_js %}number{% else %}int{% endif %}</span>) each.
+</p>
+
+<p>
+    <strong>Output:</strong> String (<span translate="no">str{% if is_js %}ing{% endif %}</span>). 
+</p>
+
+
+<p>
+    <strong>Examples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
