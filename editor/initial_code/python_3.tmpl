@@ -2,7 +2,9 @@
 {% block env %}{% endblock env %}
 
 {% block start %}
-def converter(matrix: tuple[tuple[int, ...], ...]) -> str:
+Row = tuple[int, int, int, int, int]
+Grid = tuple[Row, Row, Row, Row, Row]
+def converter(matrix: Grid) -> str:
     # your code here
     return ""
 {% endblock start %}
