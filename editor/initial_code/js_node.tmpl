@@ -10,13 +10,13 @@ function converter(matrix: [...[...number]]): string {
 
 {% block example %}
 console.log('Example:');
-console.log(converter([
+console.log(JSON.stringify(converter([
     [0, 0, 1, 0, 0],
     [0, 1, 0, 1, 0],
     [1, 0, 2, 0, 1],
     [0, 1, 0, 1, 0],
     [0, 0, 1, 0, 0]
-]));
+])));
 {% endblock %}
 
 // These "asserts" are used for self-checking
