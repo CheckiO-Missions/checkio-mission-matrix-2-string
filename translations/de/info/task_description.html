@@ -1,0 +1,51 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    Sie erhalten eine 5x5 Matrix mit ganzen Zahlen als Tupel von Tupeln. Verwenden Sie sie als Maske für die quadratisch angeordneten Buchstaben des Alphabets von "a" bis "y" (zeilenweise Anordnung). Geben Sie eine Zeichenkette zurück (sortiert, Groß- und Kleinschreibung ignoriert), die aus dem Buchstabenquadrat entsprechend der Maske mit der folgenden Regel ausgewählt wurde:
+    <ul>
+        <li><code>0</code> in der Maske - nehmen Sie das entsprechende Zeichen nicht;</li>
+        <li><code>1</code> - nimm in Kleinbuchstaben;</li>
+        <li><code>2</code> - in Großbuchstaben nehmen.</li>
+    </ul>
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}matrix-2-string-2.svg" alt="example" style="max-height: 250px"/>
+</p>
+
+<p style="text-align: justify;">
+    Hier ist ein Auftrag für eine umgekehrte Umwandlung - <a target="_blank" href="https://py.checkio.org/en/mission/string-2-matrix/">String-2-Matrix</a>.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> Tupel von fünf Tupeln mit jeweils fünf ganzen Zahlen (<span>{% if is_js %}number{% else %}int{% endif %}</span>) jeweils.
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> Zeichenkette (<span>str{% if is_js %}ing{% endif %}</span>). 
+</p>
+
+
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
