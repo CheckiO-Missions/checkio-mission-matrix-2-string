@@ -1,0 +1,51 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    On vous donne une matrice 5x5 d'entiers comme tuple de tuples. Utilisez-la comme masque pour les lettres de l'alphabet disposées en carré de "a" à "y" (ordre ligne-majeur). Renvoyez une chaîne de caractères (triée, sans tenir compte de la casse), choisie dans le carré de lettres en fonction du masque et de la règle suivante:
+    <ul>
+        <li><code>0</code> dans le masque - ne pas prendre le caractère correspondant;</li>
+        <li><code>1</code> - prendre en minuscules;</li>
+        <li><code>2</code> - prendre en majuscules.</li>
+    </ul>
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}matrix-2-string-2.svg" alt="example" style="max-height: 250px"/>
+</p>
+
+<p style="text-align: justify;">
+    Voici une mission pour faire une conversion inverse - <a target="_blank" href="https://py.checkio.org/en/mission/string-2-matrix/">String-2-Matrix</a>.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Entrée:</strong> Tuple de cinq tuples de cinq entiers (<span>{% if is_js %}number{% else %}int{% endif %}</span>) chacun.
+</p>
+
+<p>
+   <strong>Sortie:</strong> Chaîne de caractères (<span>str{% if is_js %}ing{% endif %}</span>). 
+</p>
+
+
+<p>
+    <strong>Exemples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
